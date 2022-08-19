@@ -1,0 +1,53 @@
+version: "3.0"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: bye
+  steps:
+  - intent: bye
+  - action: utter_bye
+
+- story: sign_up
+  steps:
+  - intent: sign_up
+  - action: utter_sign_up
+
+- story: sign_up_daily
+  steps:
+  - intent: sign_up_daily
+  - action: utter_sign_up_daily
+
+- story: cancel_sign_up_daily
+  steps:
+  - intent: cancel_sign_up_daily
+  - action: utter_cancel_sign_up_daily
+#  - action: action_recommend
+
+- story: cancel_sign_up
+  steps:
+  - intent: cancel_sign_up
+  - action: utter_cancel_sign_up
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sign_up
+  - action: utter_sign_up
+  - action: utter_greet
+  - intent: bye
+  - action: utter_bye
+
+- story: interactive_story_1
+  steps:
+  - intent: sign_up
+  - action: utter_sign_up
+  - intent: sign_up
+  - action: utter_sign_up
+  - intent: bye
+  - action: utter_bye

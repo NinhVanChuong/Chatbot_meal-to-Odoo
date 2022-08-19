@@ -1,0 +1,48 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - Xin chào
+    - good morning
+    - good evening
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: bye
+  examples: |
+    - good bye
+    - see you later
+    - bye
+    - ok
+    - tạm biệt
+    - cảm ơn
+- intent: sign_up
+  examples: |
+    - Tôi muốn đăng ký cơm
+    - Đăng ký cơm hôm nay
+    - Đăng ký cơm
+    - tôi muốn đặt cơm
+    - đặt cơm
+- intent: sign_up_daily
+  examples: |
+    - Tôi muốn đăng ký cơm định kỳ
+    - Đăng ký cơm định kỳ
+    - Đăng ký cơm mỗi ngày
+    - Tôi muốn đăng ký cơm mỗi ngày
+    - Đặt cơm mỗi ngày
+- intent: cancel_sign_up
+  examples: |
+    - Hủy cơm hôm nay
+    - Tôi muốn hủy đăng ký cơm hôm nay
+    - Tôi muốn hủy cơm hôm nay
+    - Hủy đăng ký cơm hôm nay
+    - Hủy đặt cơm
+- intent: cancel_sign_up_daily
+  examples: |
+    - Hủy đăng ký cơm hàng ngày
+    - Tôi muốn hủy đăng ký cơm hàng ngày
+    - Hủy cơm định kỳ

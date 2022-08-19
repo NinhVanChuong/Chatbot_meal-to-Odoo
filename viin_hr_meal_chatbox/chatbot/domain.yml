@@ -1,0 +1,36 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- sign_up
+- bye
+- greet
+- sign_up_daily
+- cancel_sign_up
+- cancel_sign_up_daily
+responses:
+  utter_greet:
+  - text: Xin chào, Tôi có thể giúp gì được cho bạn
+  utter_sign_up:
+  - text: Bạn đã đăng ký cơm ngày hôm nay!
+    image: https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1hjkbq40fs2x4.cloudfront.net%2F2017-08-21%2Ffiles%2Flandscape-photography_1645-t.jpg&imgrefurl=https%3A%2F%2Fsnapshot.canon-asia.com%2Fvn%2Farticle%2Fviet%2Flandscape-photography-quick-tips-for-stunning-deep-focused-images&tbnid=a4lYkezsNoPodM&vet=12ahUKEwiDqNvjkcP5AhWjJaYKHVOuBF8QMygBegUIARC7AQ..i&docid=wJEFdG0FFBO98M&w=750&h=530&q=%E1%BA%A3nh&ved=2ahUKEwiDqNvjkcP5AhWjJaYKHVOuBF8QMygBegUIARC7AQ
+  utter_sign_up_daily:
+  - text: Bạn đã đăng ký cơm hàng ngày!
+  utter_bye:
+  - text: Bye
+  utter_cancel_sign_up:
+  - text: Bạn đã hủy đăng ký cơm
+  utter_cancel_sign_up_daily:
+  - text: Bạn đã hủy đăng ký cơm hàng ngày
+  utter_fallback:
+  - text: Thưa anh chị, hiện tại tôi chưa hiểu được yêu cầu của anh chị!
+actions:
+- action_recommend
+- utter_bye
+- utter_cancel_sign_up
+- utter_cancel_sign_up_daily
+- utter_fallback
+- utter_greet
+- utter_sign_up
+- utter_sign_up_daily

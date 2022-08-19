@@ -1,0 +1,20 @@
+<odoo>
+	<data>
+		<record id='chatbot_partner' model='res.partner'>
+			<field name='name'>Chatbot</field>
+			<field name='email'>chatbot@viindoo.com</field>
+		</record>
+		<record id="chatbot_user" model="res.users">
+			<field name="login">chat_bot_user</field>
+			<field name="partner_id" ref="viin_hr_meal_chatbox.chatbot_partner"/>
+			<field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]" />
+		</record>
+<!--		<record id="employee1_user_demo" model="res.users">-->
+<!--			<field name="name">Employee User 01</field>-->
+<!--			<field name="login">employee1_user</field>-->
+<!--			<field name="email">employee1_user@example.viindoo.com</field>-->
+<!--			<field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]" />-->
+<!--		</record>-->
+	</data>
+</odoo>
+	
