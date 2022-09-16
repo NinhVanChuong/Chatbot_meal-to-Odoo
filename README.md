@@ -14,6 +14,5 @@
   VD: RASA,.... 25 nền tảng chatbot: https://medium.com/chatbots-journal/25-chatbot-platforms-a-comparative-table-aeefc932eaff
   - Kiểu generation based chatbot: sau khi được train lien tục câu hỏi và câu trả lời thì bot có khả năng tự sinh ra câu trả lời ứng với nội dung KH chat( không cần định nghĩa). Tuy nhiên thực tế triển khai thì khó kiểm soát được câu trả lời của bot: ngô nghê, đôi khi có nội dung nhạy cảm.
   VD: Chatbot mới ra của Meta: BlenderBot 3: https://ai.facebook.com/blog/blenderbot-3-a-175b-parameter-publicly-available-chatbot-that-improves-its-skills-and-safety-over-time/
-  nói xấu ông chủ của mình: https://www.google.com/search?q=nh%E1%BA%ADn+%C4%91%E1%BB%8Bnh+chat+bot+m%E1%BB%9Bi+ra+c%E1%BB%A7a+meta&oq=nh%E1%BA%ADn+%C4%91%E1%BB%8Bnh+chat+bot+m%E1%BB%9Bi+ra+c%E1%BB%A7a+meta&aqs=chrome..69i57.8468j1j7&sourceid=chrome&ie=UTF-8
   
   Do đó, hiện nay loại số 2 vẫn được dùng nhiều nhất vì cân bằng giữa độ mềm dẻo trong giao tiếp, lại kiểm soát được thông tin
